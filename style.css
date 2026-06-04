@@ -74,7 +74,7 @@ button{
     min-width: 100px;
 
     font-size: clamp(1.2rem,3vw, 2rem);
-    font-weight: 600;
+    font-weight: 700;
 
     border: 3px black solid;
     border-radius: 20px;
