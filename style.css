@@ -1,6 +1,6 @@
 :root{
-    --background: rgb(112, 0, 28);
-    --theme: rgb(179, 21, 39);
+    --background: rgb(138, 0, 35);
+    --theme: rgb(212, 27, 48);
 }
 
 html{
@@ -22,8 +22,9 @@ body{
     background-color: var(--theme);
     margin: auto;
     border-radius: 40px;
-    padding: 32px 10vw;
-    width: 60vw;
+    padding: 32px 1vw !important;
+    width: 80vw;
+    max-width: 1200px;
     min-width: max-content;
 }
 
@@ -38,11 +39,10 @@ h1{
 
 #mimo-img{
     aspect-ratio: 1/1;
-    height: clamp(64px,20vw,200px);
+    width: clamp(80px,20vw,200px);
     border-radius: 50%;
     border: solid 5px black;
-    transform: scale(1);
-    transition: all 0.2s ease-out;
+    transition: transform 0.2s ease-out;
 }
 
 #mimo-img:hover{
@@ -62,7 +62,7 @@ h1{
     justify-content: center;
     align-items: center;
     width: 33%;
-    margin: 0 auto;
+    margin: 0 1vw;
 }
 
 button{
@@ -73,7 +73,7 @@ button{
     width: 100%;
     min-width: 100px;
 
-    font-size: min(3vw, 2rem);
+    font-size: clamp(1rem,3vw, 2rem);
     font-weight: 600;
 
     border: 3px black solid;
@@ -109,10 +109,11 @@ button:hover{
 .cats{
     aspect-ratio: 2/3;
     width: 33%;
-    margin: 0 40px;
+    max-width: 280px;
+    margin: 0 40px 50px 40px;
 }
 
-@media (orientation: portrait) {
+@media (orientation:portrait) {
     .cats {
         display: none;
     }
