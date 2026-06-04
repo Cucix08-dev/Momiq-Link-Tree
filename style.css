@@ -21,10 +21,9 @@ body{
 #container-link-tree{
     background-color: var(--theme);
     margin: auto;
-    border-radius: 10%;
-    padding: 64px;
+    border-radius: 40px;
+    padding: 32px 10vw;
     width: 60vw;
-    height: 80dvh;
     min-width: max-content;
 }
 
@@ -48,7 +47,6 @@ h1{
 
 #mimo-img:hover{
     transform: scale(1.1);
-    transition: all 0.2s ease-in;
 }
 
 #main-link-tree {
@@ -75,13 +73,13 @@ button{
     width: 100%;
     min-width: 100px;
 
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: min(3vw, 2rem);
     font-weight: 600;
 
     border: 3px black solid;
     border-radius: 20px;
 
-    margin: min(4vw, 40px) auto;
+    margin: min(2dvh, 40px) auto;
     padding: 10px 0;
     
     background-color: var(--theme);
@@ -102,7 +100,7 @@ button:hover{
 }
 
 .img-icon{
-    height: clamp(32px,4vw,64px);
+    height: clamp(21px,4vw,64px);
     aspect-ratio: 1/1;
     border-radius: 9999px;
     margin: 0 8px;
