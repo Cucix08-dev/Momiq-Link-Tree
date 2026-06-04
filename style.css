@@ -73,7 +73,7 @@ button{
     width: 100%;
     min-width: 100px;
 
-    font-size: clamp(1.2rem,3vw, 2rem);
+    font-size: clamp(1.2rem,4vw, 2rem);
     font-weight: 700;
 
     border: 3px black solid;
@@ -100,7 +100,7 @@ button:hover{
 }
 
 .img-icon{
-    height: clamp(32px,4vw,64px);
+    height: clamp(48px,4vw,64px);
     aspect-ratio: 1/1;
     border-radius: 9999px;
     margin: 0 8px;
