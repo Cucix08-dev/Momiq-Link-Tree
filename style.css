@@ -24,7 +24,7 @@ body{
     border-radius: 10%;
     padding: 64px;
     width: 60vw;
-    height: max-content;
+    height: 80dvh;
     min-width: max-content;
 }
 
